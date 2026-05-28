@@ -1,0 +1,35 @@
+[0.419s] Invoking command in '/home/rokey/rokey_ws/src/main_2': PYTHONPATH=/home/rokey/rokey_ws/build/main_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_2 build --build-base /home/rokey/rokey_ws/build/main_2/build install --record /home/rokey/rokey_ws/build/main_2/install.log --single-version-externally-managed install_data
+[0.585s] running egg_info
+[0.586s] writing ../../build/main_2/main_2.egg-info/PKG-INFO
+[0.586s] writing dependency_links to ../../build/main_2/main_2.egg-info/dependency_links.txt
+[0.586s] writing entry points to ../../build/main_2/main_2.egg-info/entry_points.txt
+[0.586s] writing requirements to ../../build/main_2/main_2.egg-info/requires.txt
+[0.586s] writing top-level names to ../../build/main_2/main_2.egg-info/top_level.txt
+[0.587s] reading manifest file '../../build/main_2/main_2.egg-info/SOURCES.txt'
+[0.587s] writing manifest file '../../build/main_2/main_2.egg-info/SOURCES.txt'
+[0.587s] running build
+[0.587s] running build_py
+[0.588s] copying main_2/12_leader.py -> /home/rokey/rokey_ws/build/main_2/build/lib/main_2
+[0.588s] copying main_2/13_leader.py -> /home/rokey/rokey_ws/build/main_2/build/lib/main_2
+[0.588s] copying main_2/11_leader.py -> /home/rokey/rokey_ws/build/main_2/build/lib/main_2
+[0.588s] running install
+[0.588s] running install_lib
+[0.589s] copying /home/rokey/rokey_ws/build/main_2/build/lib/main_2/12_leader.py -> /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2
+[0.589s] copying /home/rokey/rokey_ws/build/main_2/build/lib/main_2/13_leader.py -> /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2
+[0.589s] copying /home/rokey/rokey_ws/build/main_2/build/lib/main_2/11_leader.py -> /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2
+[0.589s] byte-compiling /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2/12_leader.py to 12_leader.cpython-310.pyc
+[0.590s] byte-compiling /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2/13_leader.py to 13_leader.cpython-310.pyc
+[0.591s] byte-compiling /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2/11_leader.py to 11_leader.cpython-310.pyc
+[0.591s] running install_data
+[0.591s] running install_egg_info
+[0.593s] removing '/home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.593s] Copying ../../build/main_2/main_2.egg-info to /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2-0.0.0-py3.10.egg-info
+[0.593s] running install_scripts
+[0.606s] Installing leader_node script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.606s] Installing leader_node11 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.606s] Installing leader_node5 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.606s] Installing leader_node6 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.606s] Installing leader_node7 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.606s] Installing leader_node8 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.606s] writing list of installed files to '/home/rokey/rokey_ws/build/main_2/install.log'
+[0.621s] Invoked command in '/home/rokey/rokey_ws/src/main_2' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/main_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_2 build --build-base /home/rokey/rokey_ws/build/main_2/build install --record /home/rokey/rokey_ws/build/main_2/install.log --single-version-externally-managed install_data

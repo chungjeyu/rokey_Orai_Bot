@@ -1,0 +1,26 @@
+[0.480s] Invoking command in '/home/rokey/rokey_ws/src/yolo_web': PYTHONPATH=/home/rokey/rokey_ws/build/yolo_web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_web build --build-base /home/rokey/rokey_ws/build/yolo_web/build install --record /home/rokey/rokey_ws/build/yolo_web/install.log --single-version-externally-managed install_data
+[0.637s] running egg_info
+[0.638s] writing ../../build/yolo_web/yolo_web.egg-info/PKG-INFO
+[0.638s] writing dependency_links to ../../build/yolo_web/yolo_web.egg-info/dependency_links.txt
+[0.638s] writing entry points to ../../build/yolo_web/yolo_web.egg-info/entry_points.txt
+[0.638s] writing requirements to ../../build/yolo_web/yolo_web.egg-info/requires.txt
+[0.638s] writing top-level names to ../../build/yolo_web/yolo_web.egg-info/top_level.txt
+[0.639s] reading manifest file '../../build/yolo_web/yolo_web.egg-info/SOURCES.txt'
+[0.641s] writing manifest file '../../build/yolo_web/yolo_web.egg-info/SOURCES.txt'
+[0.641s] running build
+[0.641s] running build_py
+[0.641s] copying yolo_web/truck_fork_classifer.py -> /home/rokey/rokey_ws/build/yolo_web/build/lib/yolo_web
+[0.641s] running install
+[0.641s] running install_lib
+[0.642s] copying /home/rokey/rokey_ws/build/yolo_web/build/lib/yolo_web/truck_fork_classifer.py -> /home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages/yolo_web
+[0.643s] byte-compiling /home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages/yolo_web/truck_fork_classifer.py to truck_fork_classifer.cpython-310.pyc
+[0.644s] running install_data
+[0.644s] running install_egg_info
+[0.645s] removing '/home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages/yolo_web-0.0.0-py3.10.egg-info' (and everything under it)
+[0.645s] Copying ../../build/yolo_web/yolo_web.egg-info to /home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages/yolo_web-0.0.0-py3.10.egg-info
+[0.646s] running install_scripts
+[0.658s] Installing fork_detect_a script to /home/rokey/rokey_ws/install/yolo_web/lib/yolo_web
+[0.658s] Installing fork_detect_b script to /home/rokey/rokey_ws/install/yolo_web/lib/yolo_web
+[0.658s] Installing truck_fork_classifer script to /home/rokey/rokey_ws/install/yolo_web/lib/yolo_web
+[0.659s] writing list of installed files to '/home/rokey/rokey_ws/build/yolo_web/install.log'
+[0.673s] Invoked command in '/home/rokey/rokey_ws/src/yolo_web' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/yolo_web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_web build --build-base /home/rokey/rokey_ws/build/yolo_web/build install --record /home/rokey/rokey_ws/build/yolo_web/install.log --single-version-externally-managed install_data

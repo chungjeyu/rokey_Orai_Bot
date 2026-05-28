@@ -1,0 +1,44 @@
+[1.023s] Invoking command in '/home/rokey/rokey_ws/src/turtlebot4_cam': PYTHONPATH=/home/rokey/rokey_ws/src/build/turtlebot4_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtlebot4_cam build --build-base /home/rokey/rokey_ws/src/build/turtlebot4_cam/build install --record /home/rokey/rokey_ws/src/build/turtlebot4_cam/install.log --single-version-externally-managed install_data
+[1.180s] running egg_info
+[1.180s] creating ../build/turtlebot4_cam/turtlebot4_cam.egg-info
+[1.180s] writing ../build/turtlebot4_cam/turtlebot4_cam.egg-info/PKG-INFO
+[1.180s] writing dependency_links to ../build/turtlebot4_cam/turtlebot4_cam.egg-info/dependency_links.txt
+[1.180s] writing entry points to ../build/turtlebot4_cam/turtlebot4_cam.egg-info/entry_points.txt
+[1.180s] writing requirements to ../build/turtlebot4_cam/turtlebot4_cam.egg-info/requires.txt
+[1.180s] writing top-level names to ../build/turtlebot4_cam/turtlebot4_cam.egg-info/top_level.txt
+[1.181s] writing manifest file '../build/turtlebot4_cam/turtlebot4_cam.egg-info/SOURCES.txt'
+[1.182s] reading manifest file '../build/turtlebot4_cam/turtlebot4_cam.egg-info/SOURCES.txt'
+[1.182s] adding license file 'LICENSE'
+[1.182s] writing manifest file '../build/turtlebot4_cam/turtlebot4_cam.egg-info/SOURCES.txt'
+[1.182s] running build
+[1.182s] running build_py
+[1.182s] creating /home/rokey/rokey_ws/src/build/turtlebot4_cam/build
+[1.182s] creating /home/rokey/rokey_ws/src/build/turtlebot4_cam/build/lib
+[1.182s] creating /home/rokey/rokey_ws/src/build/turtlebot4_cam/build/lib/turtlebot4_cam
+[1.182s] copying turtlebot4_cam/__init__.py -> /home/rokey/rokey_ws/src/build/turtlebot4_cam/build/lib/turtlebot4_cam
+[1.182s] copying turtlebot4_cam/depth_cam.py -> /home/rokey/rokey_ws/src/build/turtlebot4_cam/build/lib/turtlebot4_cam
+[1.183s] copying turtlebot4_cam/depth_checker.py -> /home/rokey/rokey_ws/src/build/turtlebot4_cam/build/lib/turtlebot4_cam
+[1.183s] copying turtlebot4_cam/depth_checker_mouse_click.py -> /home/rokey/rokey_ws/src/build/turtlebot4_cam/build/lib/turtlebot4_cam
+[1.183s] running install
+[1.183s] running install_lib
+[1.183s] creating /home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam
+[1.183s] copying /home/rokey/rokey_ws/src/build/turtlebot4_cam/build/lib/turtlebot4_cam/__init__.py -> /home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam
+[1.183s] copying /home/rokey/rokey_ws/src/build/turtlebot4_cam/build/lib/turtlebot4_cam/depth_cam.py -> /home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam
+[1.184s] copying /home/rokey/rokey_ws/src/build/turtlebot4_cam/build/lib/turtlebot4_cam/depth_checker.py -> /home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam
+[1.184s] copying /home/rokey/rokey_ws/src/build/turtlebot4_cam/build/lib/turtlebot4_cam/depth_checker_mouse_click.py -> /home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam
+[1.184s] byte-compiling /home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam/__init__.py to __init__.cpython-310.pyc
+[1.184s] byte-compiling /home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam/depth_cam.py to depth_cam.cpython-310.pyc
+[1.184s] byte-compiling /home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam/depth_checker.py to depth_checker.cpython-310.pyc
+[1.184s] byte-compiling /home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam/depth_checker_mouse_click.py to depth_checker_mouse_click.cpython-310.pyc
+[1.185s] running install_data
+[1.185s] creating /home/rokey/rokey_ws/src/install/turtlebot4_cam/share/ament_index
+[1.185s] creating /home/rokey/rokey_ws/src/install/turtlebot4_cam/share/ament_index/resource_index
+[1.185s] creating /home/rokey/rokey_ws/src/install/turtlebot4_cam/share/ament_index/resource_index/packages
+[1.185s] copying resource/turtlebot4_cam -> /home/rokey/rokey_ws/src/install/turtlebot4_cam/share/ament_index/resource_index/packages
+[1.185s] copying package.xml -> /home/rokey/rokey_ws/src/install/turtlebot4_cam/share/turtlebot4_cam
+[1.185s] running install_egg_info
+[1.186s] Copying ../build/turtlebot4_cam/turtlebot4_cam.egg-info to /home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam-0.0.0-py3.10.egg-info
+[1.186s] running install_scripts
+[1.200s] Installing depth_cam = turtlebot4_cam.depth_checker:maindepth_cam_click script to /home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/turtlebot4_cam
+[1.200s] writing list of installed files to '/home/rokey/rokey_ws/src/build/turtlebot4_cam/install.log'
+[1.229s] Invoked command in '/home/rokey/rokey_ws/src/turtlebot4_cam' returned '0': PYTHONPATH=/home/rokey/rokey_ws/src/build/turtlebot4_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/turtlebot4_cam build --build-base /home/rokey/rokey_ws/src/build/turtlebot4_cam/build install --record /home/rokey/rokey_ws/src/build/turtlebot4_cam/install.log --single-version-externally-managed install_data

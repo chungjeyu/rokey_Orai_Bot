@@ -1,0 +1,21 @@
+[1.603s] Invoking command in '/home/rokey/rokey_ws/src/yolo_web': PYTHONPATH=/home/rokey/rokey_ws/build/yolo_web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_web build --build-base /home/rokey/rokey_ws/build/yolo_web/build install --record /home/rokey/rokey_ws/build/yolo_web/install.log --single-version-externally-managed install_data
+[1.783s] running egg_info
+[1.783s] writing ../../build/yolo_web/yolo_web.egg-info/PKG-INFO
+[1.783s] writing dependency_links to ../../build/yolo_web/yolo_web.egg-info/dependency_links.txt
+[1.784s] writing entry points to ../../build/yolo_web/yolo_web.egg-info/entry_points.txt
+[1.784s] writing requirements to ../../build/yolo_web/yolo_web.egg-info/requires.txt
+[1.784s] writing top-level names to ../../build/yolo_web/yolo_web.egg-info/top_level.txt
+[1.785s] reading manifest file '../../build/yolo_web/yolo_web.egg-info/SOURCES.txt'
+[1.785s] writing manifest file '../../build/yolo_web/yolo_web.egg-info/SOURCES.txt'
+[1.786s] running build
+[1.786s] running build_py
+[1.786s] running install
+[1.786s] running install_lib
+[1.787s] running install_data
+[1.787s] running install_egg_info
+[1.788s] removing '/home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages/yolo_web-0.0.0-py3.10.egg-info' (and everything under it)
+[1.788s] Copying ../../build/yolo_web/yolo_web.egg-info to /home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages/yolo_web-0.0.0-py3.10.egg-info
+[1.789s] running install_scripts
+[1.803s] Installing webcam_trigger_node script to /home/rokey/rokey_ws/install/yolo_web/lib/yolo_web
+[1.804s] writing list of installed files to '/home/rokey/rokey_ws/build/yolo_web/install.log'
+[1.825s] Invoked command in '/home/rokey/rokey_ws/src/yolo_web' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/yolo_web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolo_web build --build-base /home/rokey/rokey_ws/build/yolo_web/build install --record /home/rokey/rokey_ws/build/yolo_web/install.log --single-version-externally-managed install_data

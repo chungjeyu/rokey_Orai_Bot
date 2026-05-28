@@ -1,0 +1,22 @@
+[1.335s] Invoking command in '/home/rokey/rokey_ws/src/turtlebot4_cam': PYTHONPATH=/home/rokey/rokey_ws/build/turtlebot4_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/turtlebot4_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot4_cam build --build-base /home/rokey/rokey_ws/build/turtlebot4_cam/build install --record /home/rokey/rokey_ws/build/turtlebot4_cam/install.log --single-version-externally-managed install_data
+[1.524s] running egg_info
+[1.524s] writing ../../build/turtlebot4_cam/turtlebot4_cam.egg-info/PKG-INFO
+[1.524s] writing dependency_links to ../../build/turtlebot4_cam/turtlebot4_cam.egg-info/dependency_links.txt
+[1.524s] writing entry points to ../../build/turtlebot4_cam/turtlebot4_cam.egg-info/entry_points.txt
+[1.525s] writing requirements to ../../build/turtlebot4_cam/turtlebot4_cam.egg-info/requires.txt
+[1.525s] writing top-level names to ../../build/turtlebot4_cam/turtlebot4_cam.egg-info/top_level.txt
+[1.527s] reading manifest file '../../build/turtlebot4_cam/turtlebot4_cam.egg-info/SOURCES.txt'
+[1.527s] adding license file 'LICENSE'
+[1.527s] writing manifest file '../../build/turtlebot4_cam/turtlebot4_cam.egg-info/SOURCES.txt'
+[1.527s] running build
+[1.527s] running build_py
+[1.528s] running install
+[1.528s] running install_lib
+[1.529s] running install_data
+[1.529s] running install_egg_info
+[1.531s] removing '/home/rokey/rokey_ws/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam-0.0.0-py3.10.egg-info' (and everything under it)
+[1.531s] Copying ../../build/turtlebot4_cam/turtlebot4_cam.egg-info to /home/rokey/rokey_ws/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam-0.0.0-py3.10.egg-info
+[1.531s] running install_scripts
+[1.545s] Installing depth_cam = turtlebot4_cam.depth_checker:maindepth_cam_click script to /home/rokey/rokey_ws/install/turtlebot4_cam/lib/turtlebot4_cam
+[1.545s] writing list of installed files to '/home/rokey/rokey_ws/build/turtlebot4_cam/install.log'
+[1.563s] Invoked command in '/home/rokey/rokey_ws/src/turtlebot4_cam' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/turtlebot4_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/turtlebot4_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot4_cam build --build-base /home/rokey/rokey_ws/build/turtlebot4_cam/build install --record /home/rokey/rokey_ws/build/turtlebot4_cam/install.log --single-version-externally-managed install_data

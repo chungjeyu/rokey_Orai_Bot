@@ -1,0 +1,6 @@
+msg/Detection.idl
+msg/Detection.msg
+srv/NavigateToZone.idl
+srv/NavigateToZone.srv
+srv/NavigateToZone_Request.msg
+srv/NavigateToZone_Response.msg

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/main_prj/main_prj.egg-info/PKG-INFO
+../../build/main_prj/main_prj.egg-info/SOURCES.txt
+../../build/main_prj/main_prj.egg-info/dependency_links.txt
+../../build/main_prj/main_prj.egg-info/entry_points.txt
+../../build/main_prj/main_prj.egg-info/requires.txt
+../../build/main_prj/main_prj.egg-info/top_level.txt
+../../build/main_prj/main_prj.egg-info/zip-safe
+main_prj/__init__.py
+main_prj/abgui_goal_pose1.py
+main_prj/abgui_goal_pose2_service.py
+resource/main_prj
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

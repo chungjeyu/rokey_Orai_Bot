@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating turtlebot4_beep.egg-info
+writing turtlebot4_beep.egg-info/PKG-INFO
+writing dependency_links to turtlebot4_beep.egg-info/dependency_links.txt
+writing entry points to turtlebot4_beep.egg-info/entry_points.txt
+writing requirements to turtlebot4_beep.egg-info/requires.txt
+writing top-level names to turtlebot4_beep.egg-info/top_level.txt
+writing manifest file 'turtlebot4_beep.egg-info/SOURCES.txt'
+reading manifest file 'turtlebot4_beep.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot4_beep.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rokey/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages/turtlebot4-beep.egg-link (link to .)
+Installing beep_node script to /home/rokey/rokey_ws/install/turtlebot4_beep/lib/turtlebot4_beep
+
+Installed /home/rokey/rokey_ws/build/turtlebot4_beep
+running symlink_data
+creating /home/rokey/rokey_ws/install/turtlebot4_beep/share/ament_index
+creating /home/rokey/rokey_ws/install/turtlebot4_beep/share/ament_index/resource_index
+creating /home/rokey/rokey_ws/install/turtlebot4_beep/share/ament_index/resource_index/packages
+symbolically linking /home/rokey/rokey_ws/build/turtlebot4_beep/resource/turtlebot4_beep -> /home/rokey/rokey_ws/install/turtlebot4_beep/share/ament_index/resource_index/packages
+symbolically linking /home/rokey/rokey_ws/build/turtlebot4_beep/package.xml -> /home/rokey/rokey_ws/install/turtlebot4_beep/share/turtlebot4_beep

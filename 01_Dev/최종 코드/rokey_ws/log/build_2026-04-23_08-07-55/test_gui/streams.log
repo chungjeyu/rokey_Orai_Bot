@@ -1,0 +1,37 @@
+[0.420s] Invoking command in '/home/rokey/rokey_ws/src/test_gui': PYTHONPATH=/home/rokey/rokey_ws/build/test_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_gui build --build-base /home/rokey/rokey_ws/build/test_gui/build install --record /home/rokey/rokey_ws/build/test_gui/install.log --single-version-externally-managed install_data
+[0.585s] running egg_info
+[0.585s] creating ../../build/test_gui/test_gui.egg-info
+[0.585s] writing ../../build/test_gui/test_gui.egg-info/PKG-INFO
+[0.586s] writing dependency_links to ../../build/test_gui/test_gui.egg-info/dependency_links.txt
+[0.586s] writing entry points to ../../build/test_gui/test_gui.egg-info/entry_points.txt
+[0.586s] writing requirements to ../../build/test_gui/test_gui.egg-info/requires.txt
+[0.586s] writing top-level names to ../../build/test_gui/test_gui.egg-info/top_level.txt
+[0.586s] writing manifest file '../../build/test_gui/test_gui.egg-info/SOURCES.txt'
+[0.587s] reading manifest file '../../build/test_gui/test_gui.egg-info/SOURCES.txt'
+[0.587s] writing manifest file '../../build/test_gui/test_gui.egg-info/SOURCES.txt'
+[0.587s] running build
+[0.587s] running build_py
+[0.587s] creating /home/rokey/rokey_ws/build/test_gui/build
+[0.587s] creating /home/rokey/rokey_ws/build/test_gui/build/lib
+[0.587s] creating /home/rokey/rokey_ws/build/test_gui/build/lib/test_gui
+[0.587s] copying test_gui/test_leader.py -> /home/rokey/rokey_ws/build/test_gui/build/lib/test_gui
+[0.587s] copying test_gui/__init__.py -> /home/rokey/rokey_ws/build/test_gui/build/lib/test_gui
+[0.587s] running install
+[0.587s] running install_lib
+[0.588s] creating /home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages/test_gui
+[0.588s] copying /home/rokey/rokey_ws/build/test_gui/build/lib/test_gui/test_leader.py -> /home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages/test_gui
+[0.588s] copying /home/rokey/rokey_ws/build/test_gui/build/lib/test_gui/__init__.py -> /home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages/test_gui
+[0.588s] byte-compiling /home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages/test_gui/test_leader.py to test_leader.cpython-310.pyc
+[0.589s] byte-compiling /home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages/test_gui/__init__.py to __init__.cpython-310.pyc
+[0.589s] running install_data
+[0.589s] creating /home/rokey/rokey_ws/install/test_gui/share/ament_index
+[0.589s] creating /home/rokey/rokey_ws/install/test_gui/share/ament_index/resource_index
+[0.589s] creating /home/rokey/rokey_ws/install/test_gui/share/ament_index/resource_index/packages
+[0.589s] copying resource/test_gui -> /home/rokey/rokey_ws/install/test_gui/share/ament_index/resource_index/packages
+[0.589s] copying package.xml -> /home/rokey/rokey_ws/install/test_gui/share/test_gui
+[0.589s] running install_egg_info
+[0.590s] Copying ../../build/test_gui/test_gui.egg-info to /home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages/test_gui-0.0.0-py3.10.egg-info
+[0.591s] running install_scripts
+[0.604s] Installing dummy_gui script to /home/rokey/rokey_ws/install/test_gui/lib/test_gui
+[0.604s] writing list of installed files to '/home/rokey/rokey_ws/build/test_gui/install.log'
+[0.619s] Invoked command in '/home/rokey/rokey_ws/src/test_gui' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/test_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_gui build --build-base /home/rokey/rokey_ws/build/test_gui/build install --record /home/rokey/rokey_ws/build/test_gui/install.log --single-version-externally-managed install_data

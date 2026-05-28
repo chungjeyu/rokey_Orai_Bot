@@ -1,0 +1,20 @@
+running egg_info
+writing ../build/turtlebot4_cam/turtlebot4_cam.egg-info/PKG-INFO
+writing dependency_links to ../build/turtlebot4_cam/turtlebot4_cam.egg-info/dependency_links.txt
+writing entry points to ../build/turtlebot4_cam/turtlebot4_cam.egg-info/entry_points.txt
+writing requirements to ../build/turtlebot4_cam/turtlebot4_cam.egg-info/requires.txt
+writing top-level names to ../build/turtlebot4_cam/turtlebot4_cam.egg-info/top_level.txt
+reading manifest file '../build/turtlebot4_cam/turtlebot4_cam.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/turtlebot4_cam/turtlebot4_cam.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/turtlebot4_cam/turtlebot4_cam.egg-info to /home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam-0.0.0-py3.10.egg-info
+running install_scripts
+Installing depth_cam = turtlebot4_cam.depth_checker:maindepth_cam_click script to /home/rokey/rokey_ws/src/install/turtlebot4_cam/lib/turtlebot4_cam
+writing list of installed files to '/home/rokey/rokey_ws/src/build/turtlebot4_cam/install.log'

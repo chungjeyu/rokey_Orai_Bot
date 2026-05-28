@@ -1,0 +1,22 @@
+[0.384s] Invoking command in '/home/rokey/rokey_ws/src/mini_prj': PYTHONPATH=/home/rokey/rokey_ws/src/build/mini_prj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/src/install/mini_prj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mini_prj build --build-base /home/rokey/rokey_ws/src/build/mini_prj/build install --record /home/rokey/rokey_ws/src/build/mini_prj/install.log --single-version-externally-managed install_data
+[0.538s] running egg_info
+[0.538s] writing ../build/mini_prj/mini_prj.egg-info/PKG-INFO
+[0.538s] writing dependency_links to ../build/mini_prj/mini_prj.egg-info/dependency_links.txt
+[0.538s] writing entry points to ../build/mini_prj/mini_prj.egg-info/entry_points.txt
+[0.538s] writing requirements to ../build/mini_prj/mini_prj.egg-info/requires.txt
+[0.538s] writing top-level names to ../build/mini_prj/mini_prj.egg-info/top_level.txt
+[0.539s] reading manifest file '../build/mini_prj/mini_prj.egg-info/SOURCES.txt'
+[0.539s] writing manifest file '../build/mini_prj/mini_prj.egg-info/SOURCES.txt'
+[0.539s] running build
+[0.539s] running build_py
+[0.539s] running install
+[0.540s] running install_lib
+[0.540s] running install_data
+[0.540s] running install_egg_info
+[0.541s] removing '/home/rokey/rokey_ws/src/install/mini_prj/lib/python3.10/site-packages/mini_prj-0.0.0-py3.10.egg-info' (and everything under it)
+[0.541s] Copying ../build/mini_prj/mini_prj.egg-info to /home/rokey/rokey_ws/src/install/mini_prj/lib/python3.10/site-packages/mini_prj-0.0.0-py3.10.egg-info
+[0.542s] running install_scripts
+[0.554s] Installing follow_waypoints script to /home/rokey/rokey_ws/src/install/mini_prj/lib/mini_prj
+[0.554s] Installing node_a script to /home/rokey/rokey_ws/src/install/mini_prj/lib/mini_prj
+[0.554s] writing list of installed files to '/home/rokey/rokey_ws/src/build/mini_prj/install.log'
+[0.568s] Invoked command in '/home/rokey/rokey_ws/src/mini_prj' returned '0': PYTHONPATH=/home/rokey/rokey_ws/src/build/mini_prj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/src/install/mini_prj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mini_prj build --build-base /home/rokey/rokey_ws/src/build/mini_prj/build install --record /home/rokey/rokey_ws/src/build/mini_prj/install.log --single-version-externally-managed install_data

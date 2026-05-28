@@ -1,0 +1,29 @@
+[1.315s] Invoking command in '/home/rokey/rokey_ws/src/day3': PYTHONPATH=/home/rokey/rokey_ws/build/day3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/day3 build --build-base /home/rokey/rokey_ws/build/day3/build install --record /home/rokey/rokey_ws/build/day3/install.log --single-version-externally-managed install_data
+[1.483s] running egg_info
+[1.483s] writing ../../build/day3/day3.egg-info/PKG-INFO
+[1.485s] writing dependency_links to ../../build/day3/day3.egg-info/dependency_links.txt
+[1.486s] writing entry points to ../../build/day3/day3.egg-info/entry_points.txt
+[1.486s] writing requirements to ../../build/day3/day3.egg-info/requires.txt
+[1.486s] writing top-level names to ../../build/day3/day3.egg-info/top_level.txt
+[1.487s] reading manifest file '../../build/day3/day3.egg-info/SOURCES.txt'
+[1.487s] writing manifest file '../../build/day3/day3.egg-info/SOURCES.txt'
+[1.487s] running build
+[1.488s] running build_py
+[1.488s] running install
+[1.489s] running install_lib
+[1.490s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_1_c_follow_waypoints.py to 3_1_c_follow_waypoints.cpython-310.pyc
+[1.490s]   File "/home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_1_c_follow_waypoints.py", line 50
+[1.490s]     goal_pose.append(navigator.getPoseStamped([-1.5589 1.7090], TurtleBot4Directions.EAST))
+[1.490s]                                                ^^^^^^^^^^^^^^
+[1.490s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[1.490s] 
+[1.490s] running install_data
+[1.490s] running install_egg_info
+[1.491s] removing '/home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3-0.0.0-py3.10.egg-info' (and everything under it)
+[1.491s] Copying ../../build/day3/day3.egg-info to /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3-0.0.0-py3.10.egg-info
+[1.492s] running install_scripts
+[1.505s] Installing follow_waypoints script to /home/rokey/rokey_ws/install/day3/lib/day3
+[1.505s] Installing nav_through_poses script to /home/rokey/rokey_ws/install/day3/lib/day3
+[1.505s] Installing nav_to_poses script to /home/rokey/rokey_ws/install/day3/lib/day3
+[1.505s] writing list of installed files to '/home/rokey/rokey_ws/build/day3/install.log'
+[1.552s] Invoked command in '/home/rokey/rokey_ws/src/day3' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/day3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/day3 build --build-base /home/rokey/rokey_ws/build/day3/build install --record /home/rokey/rokey_ws/build/day3/install.log --single-version-externally-managed install_data

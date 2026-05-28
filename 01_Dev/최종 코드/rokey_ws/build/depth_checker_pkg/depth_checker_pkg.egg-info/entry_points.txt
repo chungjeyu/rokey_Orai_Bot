@@ -1,0 +1,4 @@
+[console_scripts]
+depth_checker = depth_checker_pkg.depth_checker:main
+depth_checker_click = depth_checker_pkg.depth_checker_click:main
+

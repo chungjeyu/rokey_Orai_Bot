@@ -1,0 +1,4 @@
+[console_scripts]
+abgui_goal_pose1 = main_prj.abgui_goal_pose1:main
+abgui_goal_pose2_service = main_prj.abgui_goal_pose2_service:main
+

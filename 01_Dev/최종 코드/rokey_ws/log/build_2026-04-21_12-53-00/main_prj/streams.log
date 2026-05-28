@@ -1,0 +1,37 @@
+[0.471s] Invoking command in '/home/rokey/rokey_ws/src/main_prj': PYTHONPATH=/home/rokey/rokey_ws/build/main_prj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/main_prj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_prj build --build-base /home/rokey/rokey_ws/build/main_prj/build install --record /home/rokey/rokey_ws/build/main_prj/install.log --single-version-externally-managed install_data
+[0.634s] running egg_info
+[0.634s] creating ../../build/main_prj/main_prj.egg-info
+[0.635s] writing ../../build/main_prj/main_prj.egg-info/PKG-INFO
+[0.635s] writing dependency_links to ../../build/main_prj/main_prj.egg-info/dependency_links.txt
+[0.635s] writing entry points to ../../build/main_prj/main_prj.egg-info/entry_points.txt
+[0.635s] writing requirements to ../../build/main_prj/main_prj.egg-info/requires.txt
+[0.635s] writing top-level names to ../../build/main_prj/main_prj.egg-info/top_level.txt
+[0.635s] writing manifest file '../../build/main_prj/main_prj.egg-info/SOURCES.txt'
+[0.636s] reading manifest file '../../build/main_prj/main_prj.egg-info/SOURCES.txt'
+[0.636s] writing manifest file '../../build/main_prj/main_prj.egg-info/SOURCES.txt'
+[0.636s] running build
+[0.636s] running build_py
+[0.637s] creating /home/rokey/rokey_ws/build/main_prj/build
+[0.637s] creating /home/rokey/rokey_ws/build/main_prj/build/lib
+[0.637s] creating /home/rokey/rokey_ws/build/main_prj/build/lib/main_prj
+[0.637s] copying main_prj/__init__.py -> /home/rokey/rokey_ws/build/main_prj/build/lib/main_prj
+[0.637s] copying main_prj/abgui_goal_pose2_service.py -> /home/rokey/rokey_ws/build/main_prj/build/lib/main_prj
+[0.637s] running install
+[0.637s] running install_lib
+[0.638s] creating /home/rokey/rokey_ws/install/main_prj/lib/python3.10/site-packages/main_prj
+[0.638s] copying /home/rokey/rokey_ws/build/main_prj/build/lib/main_prj/__init__.py -> /home/rokey/rokey_ws/install/main_prj/lib/python3.10/site-packages/main_prj
+[0.638s] copying /home/rokey/rokey_ws/build/main_prj/build/lib/main_prj/abgui_goal_pose2_service.py -> /home/rokey/rokey_ws/install/main_prj/lib/python3.10/site-packages/main_prj
+[0.639s] byte-compiling /home/rokey/rokey_ws/install/main_prj/lib/python3.10/site-packages/main_prj/__init__.py to __init__.cpython-310.pyc
+[0.639s] byte-compiling /home/rokey/rokey_ws/install/main_prj/lib/python3.10/site-packages/main_prj/abgui_goal_pose2_service.py to abgui_goal_pose2_service.cpython-310.pyc
+[0.639s] running install_data
+[0.640s] creating /home/rokey/rokey_ws/install/main_prj/share/ament_index
+[0.640s] creating /home/rokey/rokey_ws/install/main_prj/share/ament_index/resource_index
+[0.640s] creating /home/rokey/rokey_ws/install/main_prj/share/ament_index/resource_index/packages
+[0.640s] copying resource/main_prj -> /home/rokey/rokey_ws/install/main_prj/share/ament_index/resource_index/packages
+[0.640s] copying package.xml -> /home/rokey/rokey_ws/install/main_prj/share/main_prj
+[0.640s] running install_egg_info
+[0.641s] Copying ../../build/main_prj/main_prj.egg-info to /home/rokey/rokey_ws/install/main_prj/lib/python3.10/site-packages/main_prj-0.0.0-py3.10.egg-info
+[0.641s] running install_scripts
+[0.653s] Installing abgui_goal_pose2_service script to /home/rokey/rokey_ws/install/main_prj/lib/main_prj
+[0.653s] writing list of installed files to '/home/rokey/rokey_ws/build/main_prj/install.log'
+[0.668s] Invoked command in '/home/rokey/rokey_ws/src/main_prj' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/main_prj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/main_prj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_prj build --build-base /home/rokey/rokey_ws/build/main_prj/build install --record /home/rokey/rokey_ws/build/main_prj/install.log --single-version-externally-managed install_data

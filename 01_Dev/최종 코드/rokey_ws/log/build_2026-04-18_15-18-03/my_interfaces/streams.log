@@ -1,0 +1,154 @@
+[0.035s] Invoking command in '/home/rokey/rokey_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rokey/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/rokey/rokey_ws/install/yolo_web:/home/rokey/rokey_ws/install/yolo_detection_pkg:/home/rokey/rokey_ws/install/turtlebot4_cam:/home/rokey/rokey_ws/install/turtlebot4_beep:/home/rokey/rokey_ws/install/mini_prj:/home/rokey/rokey_ws/install/image_capture_pkg:/home/rokey/rokey_ws/install/depth_checker_pkg:/home/rokey/rokey_ws/install/day3:/home/rokey/install/yolo_detection_pkg:/home/rokey/install/turtlebot4_python_tutorials:/home/rokey/install/turtlebot4_openai_tutorials:/home/rokey/install/turtlebot4_cam:/home/rokey/install/turtlebot4_beep:/home/rokey/install/image_capture_pkg:/home/rokey/install/depth_checker_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rokey/rokey_ws/build/my_interfaces -- -j20 -l20
+[1.130s] [  3%] Built target my_interfaces__rs
+[1.130s] [  6%] Built target my_interfaces__cpp
+[1.130s] [ 15%] Built target my_interfaces__rosidl_generator_c
+[1.130s] [ 15%] Built target ament_cmake_python_copy_my_interfaces
+[1.130s] [ 25%] Built target my_interfaces__rosidl_typesupport_cpp
+[1.130s] [ 34%] Built target my_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.130s] [ 43%] Built target my_interfaces__rosidl_typesupport_fastrtps_c
+[1.130s] [ 53%] Built target my_interfaces__rosidl_typesupport_introspection_cpp
+[1.130s] [ 62%] Built target my_interfaces__rosidl_typesupport_introspection_c
+[1.130s] [ 71%] Built target my_interfaces__rosidl_typesupport_c
+[1.130s] [ 71%] Built target my_interfaces
+[1.130s] [ 75%] Built target my_interfaces__py
+[1.130s] [ 81%] Built target my_interfaces__rosidl_generator_py
+[1.130s] [ 87%] Built target my_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.130s] [100%] Built target my_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.130s] [100%] Built target my_interfaces__rosidl_typesupport_c__pyext
+[1.130s] running egg_info
+[1.130s] writing my_interfaces.egg-info/PKG-INFO
+[1.130s] writing dependency_links to my_interfaces.egg-info/dependency_links.txt
+[1.130s] writing top-level names to my_interfaces.egg-info/top_level.txt
+[1.130s] reading manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[1.130s] writing manifest file 'my_interfaces.egg-info/SOURCES.txt'
+[1.131s] [100%] Built target ament_cmake_python_build_my_interfaces_egg
+[1.301s] Invoked command in '/home/rokey/rokey_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rokey/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/rokey/rokey_ws/install/yolo_web:/home/rokey/rokey_ws/install/yolo_detection_pkg:/home/rokey/rokey_ws/install/turtlebot4_cam:/home/rokey/rokey_ws/install/turtlebot4_beep:/home/rokey/rokey_ws/install/mini_prj:/home/rokey/rokey_ws/install/image_capture_pkg:/home/rokey/rokey_ws/install/depth_checker_pkg:/home/rokey/rokey_ws/install/day3:/home/rokey/install/yolo_detection_pkg:/home/rokey/install/turtlebot4_python_tutorials:/home/rokey/install/turtlebot4_openai_tutorials:/home/rokey/install/turtlebot4_cam:/home/rokey/install/turtlebot4_beep:/home/rokey/install/image_capture_pkg:/home/rokey/install/depth_checker_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rokey/rokey_ws/build/my_interfaces -- -j20 -l20
+[1.309s] Invoking command in '/home/rokey/rokey_ws/build/my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rokey/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/rokey/rokey_ws/install/yolo_web:/home/rokey/rokey_ws/install/yolo_detection_pkg:/home/rokey/rokey_ws/install/turtlebot4_cam:/home/rokey/rokey_ws/install/turtlebot4_beep:/home/rokey/rokey_ws/install/mini_prj:/home/rokey/rokey_ws/install/image_capture_pkg:/home/rokey/rokey_ws/install/depth_checker_pkg:/home/rokey/rokey_ws/install/day3:/home/rokey/install/yolo_detection_pkg:/home/rokey/install/turtlebot4_python_tutorials:/home/rokey/install/turtlebot4_openai_tutorials:/home/rokey/install/turtlebot4_cam:/home/rokey/install/turtlebot4_beep:/home/rokey/install/image_capture_pkg:/home/rokey/install/depth_checker_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rokey/rokey_ws/build/my_interfaces
+[1.317s] -- Install configuration: ""
+[1.317s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_interfaces
+[1.317s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[1.318s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[1.319s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detection.h
+[1.319s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.319s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[1.319s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/detection__struct.h
+[1.320s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/detection__type_support.h
+[1.320s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/detection__functions.c
+[1.320s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/detection__functions.h
+[1.320s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/environment/library_path.sh
+[1.320s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/environment/library_path.dsv
+[1.321s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_c.so
+[1.321s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[1.321s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[1.321s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.321s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[1.321s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[1.321s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.321s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[1.321s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[1.321s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.321s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[1.321s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[1.321s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/detection__type_support.c
+[1.321s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_c.so
+[1.322s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_c.so
+[1.322s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[1.322s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[1.322s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detection.hpp
+[1.322s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.322s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[1.322s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/detection__type_support.hpp
+[1.323s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/detection__builder.hpp
+[1.323s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/detection__struct.hpp
+[1.323s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/detection__traits.hpp
+[1.323s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[1.323s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[1.323s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.323s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[1.323s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[1.323s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/dds_fastrtps
+[1.323s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.323s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces
+[1.323s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg
+[1.324s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail
+[1.324s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[1.324s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/include/my_interfaces/my_interfaces/msg/detail/detection__type_support.cpp
+[1.324s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.324s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_typesupport_cpp.so
+[1.324s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.sh
+[1.324s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/environment/pythonpath.dsv
+[1.324s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info
+[1.324s] -- Installing: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.324s] -- Installing: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.324s] -- Installing: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.324s] -- Installing: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.324s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces
+[1.324s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_c.c
+[1.325s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.325s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg
+[1.325s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_detection.py
+[1.325s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/_detection_s.c
+[1.325s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg/__init__.py
+[1.325s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.325s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.325s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/__init__.py
+[1.325s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.325s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/libmy_interfaces__rosidl_generator_py.so
+[1.325s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.362s] Listing '/home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces'...
+[1.362s] Listing '/home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/msg'...
+[1.366s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.367s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.367s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/local/lib/python3.10/dist-packages/my_interfaces/my_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.367s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/lib/libmy_interfaces__rosidl_generator_py.so
+[1.367s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/ament_index/resource_index/rust_packages/my_interfaces
+[1.367s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/rust
+[1.367s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/rust/Cargo.toml
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/rust/src
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/rust/src/msg.rs
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/rust/src/msg
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/rust/src/msg/rmw.rs
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/rust/src/lib.rs
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/rust/build.rs
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/msg/Detection.idl
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/msg/Detection.msg
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/ament_index/resource_index/package_run_dependencies/my_interfaces
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/ament_index/resource_index/parent_prefix_path/my_interfaces
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.sh
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/environment/ament_prefix_path.dsv
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/environment/path.sh
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/environment/path.dsv
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/local_setup.bash
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/local_setup.sh
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/local_setup.zsh
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/local_setup.dsv
+[1.368s] -- Installing: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/package.dsv
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/ament_index/resource_index/packages/my_interfaces
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport.cmake
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport.cmake
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_cppExport.cmake
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.368s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/export_my_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/cmake/my_interfacesConfig-version.cmake
+[1.369s] -- Up-to-date: /home/rokey/rokey_ws/install/my_interfaces/share/my_interfaces/package.xml
+[1.370s] Invoked command in '/home/rokey/rokey_ws/build/my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokey/turtlebot4_ws/install/turtlebot4_python_tutorials:/home/rokey/turtlebot4_ws/install/turtlebot4_openai_tutorials:/home/rokey/rokey_ws/install/yolo_web:/home/rokey/rokey_ws/install/yolo_detection_pkg:/home/rokey/rokey_ws/install/turtlebot4_cam:/home/rokey/rokey_ws/install/turtlebot4_beep:/home/rokey/rokey_ws/install/mini_prj:/home/rokey/rokey_ws/install/image_capture_pkg:/home/rokey/rokey_ws/install/depth_checker_pkg:/home/rokey/rokey_ws/install/day3:/home/rokey/install/yolo_detection_pkg:/home/rokey/install/turtlebot4_python_tutorials:/home/rokey/install/turtlebot4_openai_tutorials:/home/rokey/install/turtlebot4_cam:/home/rokey/install/turtlebot4_beep:/home/rokey/install/image_capture_pkg:/home/rokey/install/depth_checker_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rokey/rokey_ws/build/my_interfaces

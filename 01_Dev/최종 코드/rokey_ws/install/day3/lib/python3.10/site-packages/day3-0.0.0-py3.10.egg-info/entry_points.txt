@@ -1,0 +1,5 @@
+[console_scripts]
+follow_waypoints = day3.3_1_c_follow_waypoints:main
+nav_through_poses = day3.3_1_b_nav_through_poses:main
+nav_to_poses = day3.3_1_a_nav_to_pose:main
+

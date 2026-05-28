@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/test_gui/test_gui.egg-info
+writing ../../build/test_gui/test_gui.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_gui/test_gui.egg-info/dependency_links.txt
+writing entry points to ../../build/test_gui/test_gui.egg-info/entry_points.txt
+writing requirements to ../../build/test_gui/test_gui.egg-info/requires.txt
+writing top-level names to ../../build/test_gui/test_gui.egg-info/top_level.txt
+writing manifest file '../../build/test_gui/test_gui.egg-info/SOURCES.txt'
+reading manifest file '../../build/test_gui/test_gui.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_gui/test_gui.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rokey/rokey_ws/build/test_gui/build
+creating /home/rokey/rokey_ws/build/test_gui/build/lib
+creating /home/rokey/rokey_ws/build/test_gui/build/lib/test_gui
+copying test_gui/test_leader.py -> /home/rokey/rokey_ws/build/test_gui/build/lib/test_gui
+copying test_gui/__init__.py -> /home/rokey/rokey_ws/build/test_gui/build/lib/test_gui
+running install
+running install_lib
+creating /home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages/test_gui
+copying /home/rokey/rokey_ws/build/test_gui/build/lib/test_gui/test_leader.py -> /home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages/test_gui
+copying /home/rokey/rokey_ws/build/test_gui/build/lib/test_gui/__init__.py -> /home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages/test_gui
+byte-compiling /home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages/test_gui/test_leader.py to test_leader.cpython-310.pyc
+byte-compiling /home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages/test_gui/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/rokey/rokey_ws/install/test_gui/share/ament_index
+creating /home/rokey/rokey_ws/install/test_gui/share/ament_index/resource_index
+creating /home/rokey/rokey_ws/install/test_gui/share/ament_index/resource_index/packages
+copying resource/test_gui -> /home/rokey/rokey_ws/install/test_gui/share/ament_index/resource_index/packages
+copying package.xml -> /home/rokey/rokey_ws/install/test_gui/share/test_gui
+running install_egg_info
+Copying ../../build/test_gui/test_gui.egg-info to /home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages/test_gui-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dummy_gui script to /home/rokey/rokey_ws/install/test_gui/lib/test_gui
+writing list of installed files to '/home/rokey/rokey_ws/build/test_gui/install.log'

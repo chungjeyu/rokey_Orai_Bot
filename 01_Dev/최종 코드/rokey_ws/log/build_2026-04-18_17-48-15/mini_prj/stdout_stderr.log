@@ -1,0 +1,32 @@
+running egg_info
+writing ../../build/mini_prj/mini_prj.egg-info/PKG-INFO
+writing dependency_links to ../../build/mini_prj/mini_prj.egg-info/dependency_links.txt
+writing entry points to ../../build/mini_prj/mini_prj.egg-info/entry_points.txt
+writing requirements to ../../build/mini_prj/mini_prj.egg-info/requires.txt
+writing top-level names to ../../build/mini_prj/mini_prj.egg-info/top_level.txt
+reading manifest file '../../build/mini_prj/mini_prj.egg-info/SOURCES.txt'
+writing manifest file '../../build/mini_prj/mini_prj.egg-info/SOURCES.txt'
+running build
+running build_py
+copying mini_prj/node_a_nav_1_1.py -> /home/rokey/rokey_ws/build/mini_prj/build/lib/mini_prj
+copying mini_prj/node_a_nav_1_2.py -> /home/rokey/rokey_ws/build/mini_prj/build/lib/mini_prj
+copying mini_prj/node_b_3.py -> /home/rokey/rokey_ws/build/mini_prj/build/lib/mini_prj
+running install
+running install_lib
+copying /home/rokey/rokey_ws/build/mini_prj/build/lib/mini_prj/node_a_nav_1_1.py -> /home/rokey/rokey_ws/install/mini_prj/lib/python3.10/site-packages/mini_prj
+copying /home/rokey/rokey_ws/build/mini_prj/build/lib/mini_prj/node_a_nav_1_2.py -> /home/rokey/rokey_ws/install/mini_prj/lib/python3.10/site-packages/mini_prj
+copying /home/rokey/rokey_ws/build/mini_prj/build/lib/mini_prj/node_b_3.py -> /home/rokey/rokey_ws/install/mini_prj/lib/python3.10/site-packages/mini_prj
+byte-compiling /home/rokey/rokey_ws/install/mini_prj/lib/python3.10/site-packages/mini_prj/node_a_nav_1_1.py to node_a_nav_1_1.cpython-310.pyc
+byte-compiling /home/rokey/rokey_ws/install/mini_prj/lib/python3.10/site-packages/mini_prj/node_a_nav_1_2.py to node_a_nav_1_2.cpython-310.pyc
+byte-compiling /home/rokey/rokey_ws/install/mini_prj/lib/python3.10/site-packages/mini_prj/node_b_3.py to node_b_3.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/rokey/rokey_ws/install/mini_prj/lib/python3.10/site-packages/mini_prj-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mini_prj/mini_prj.egg-info to /home/rokey/rokey_ws/install/mini_prj/lib/python3.10/site-packages/mini_prj-0.0.0-py3.10.egg-info
+running install_scripts
+Installing follow_waypoints script to /home/rokey/rokey_ws/install/mini_prj/lib/mini_prj
+Installing node_a script to /home/rokey/rokey_ws/install/mini_prj/lib/mini_prj
+Installing node_a_nav_1 script to /home/rokey/rokey_ws/install/mini_prj/lib/mini_prj
+Installing node_a_nav_1_1 script to /home/rokey/rokey_ws/install/mini_prj/lib/mini_prj
+Installing node_b script to /home/rokey/rokey_ws/install/mini_prj/lib/mini_prj
+writing list of installed files to '/home/rokey/rokey_ws/build/mini_prj/install.log'

@@ -1,0 +1,30 @@
+[0.420s] Invoking command in '/home/rokey/rokey_ws/src/main_2': PYTHONPATH=/home/rokey/rokey_ws/build/main_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_2 build --build-base /home/rokey/rokey_ws/build/main_2/build install --record /home/rokey/rokey_ws/build/main_2/install.log --single-version-externally-managed install_data
+[0.583s] running egg_info
+[0.583s] writing ../../build/main_2/main_2.egg-info/PKG-INFO
+[0.584s] writing dependency_links to ../../build/main_2/main_2.egg-info/dependency_links.txt
+[0.584s] writing entry points to ../../build/main_2/main_2.egg-info/entry_points.txt
+[0.584s] writing requirements to ../../build/main_2/main_2.egg-info/requires.txt
+[0.584s] writing top-level names to ../../build/main_2/main_2.egg-info/top_level.txt
+[0.585s] reading manifest file '../../build/main_2/main_2.egg-info/SOURCES.txt'
+[0.586s] writing manifest file '../../build/main_2/main_2.egg-info/SOURCES.txt'
+[0.586s] running build
+[0.586s] running build_py
+[0.586s] copying main_2/test_sub.py -> /home/rokey/rokey_ws/build/main_2/build/lib/main_2
+[0.586s] running install
+[0.586s] running install_lib
+[0.587s] copying /home/rokey/rokey_ws/build/main_2/build/lib/main_2/test_sub.py -> /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2
+[0.587s] byte-compiling /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2/test_sub.py to test_sub.cpython-310.pyc
+[0.587s] running install_data
+[0.587s] running install_egg_info
+[0.589s] removing '/home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.589s] Copying ../../build/main_2/main_2.egg-info to /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2-0.0.0-py3.10.egg-info
+[0.589s] running install_scripts
+[0.602s] Installing leader_node script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.602s] Installing leader_node5 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.602s] Installing leader_node6 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.602s] Installing leader_node7 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.602s] Installing leader_node8 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.602s] Installing test_pub script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.602s] Installing test_sub script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.602s] writing list of installed files to '/home/rokey/rokey_ws/build/main_2/install.log'
+[0.616s] Invoked command in '/home/rokey/rokey_ws/src/main_2' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/main_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_2 build --build-base /home/rokey/rokey_ws/build/main_2/build install --record /home/rokey/rokey_ws/build/main_2/install.log --single-version-externally-managed install_data

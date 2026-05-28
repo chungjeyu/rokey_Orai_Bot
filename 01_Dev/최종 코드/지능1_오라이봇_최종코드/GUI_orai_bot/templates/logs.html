@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8"> <title>데이터 및 이벤트 조회</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; background-color: #f4f7f6; }
+        .container { max-width: 1000px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        .header-wrapper { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #27ae60; margin-bottom: 20px; padding-bottom: 10px; }
+        .back-btn { text-decoration: none; color: #3498db; font-weight: bold; }
+        
+        /* 검색 및 필터 영역 스타일 */
+        .search-box { display: flex; gap: 10px; margin-bottom: 20px; background: #fafafa; padding: 15px; border-radius: 8px; border: 1px solid #ddd; }
+        select, input { padding: 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 14px; }
+        input[type="text"] { flex-grow: 1; }
+
+        /* 테이블 스타일 */
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #27ae60; color: white; position: sticky; top: 0; }
+        .table-container { max-height: 600px; overflow-y: auto; }
+        .img-link { color: #3498db; text-decoration: underline; cursor: pointer; font-size: 12px; font-family: monospace; }
+
+        /* 🔥 작업 승인 팝업(모달) 스타일 추가 */
+        /* 모달 스타일 */
+        #goNoGoModal { 
+            display: none; position: fixed; z-index: 999; left: 0; top: 0; 
+            width: 100%; height: 100%; background: rgba(0,0,0,0.7); 
+            overflow-y: auto; /* 🔥 이 부분이 팝업창 바깥 스크롤을 만들어줍니다 */
+        }
+        .modal-content { 
+            background: white; 
+            margin: 5% auto 50px auto; /* 🔥 위쪽 여백을 조금 줄이고(10% -> 5%), 아래쪽 여백(50px)을 줘서 스크롤 시 버튼이 안 잘리게 합니다 */
+            padding: 20px; width: 420px; border-radius: 10px; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.3); 
+        }
+        .select-style { width: 100%; padding: 12px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; font-size: 1.1em; background-color: #fff; cursor: pointer; }
+        .modal-img { width: 100%; max-height: 220px; object-fit: contain; margin-bottom: 15px; border-radius: 5px; border: 1px solid #eee; }
+        .selected-row { background-color: #d1ecf1 !important; border: 2px solid #0c5460; }
+        
+        /* 버튼 공통 스타일 */
+        .btn { padding: 10px 15px; cursor: pointer; border: none; border-radius: 5px; color: white; background-color: #3498db; font-weight: bold; }
+        .btn-confirm { background-color: #e67e22; width: 100%; margin-top: 10px; }
+        .btn-manual { background-color: #95a5a6; width: 100%; margin-top: 5px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header-wrapper">
+        <h1 style="margin: 0;">📊 로봇 데이터 및 이벤트 조회</h1>
+        <div style="display: flex; align-items: center; gap: 15px;">
+            <a href="/" class="back-btn">← 관제 화면으로 돌아가기</a>
+            <a href="/logout" class="btn" style="background-color: #7f8c8d; text-decoration: none; padding: 6px 12px; font-size: 0.9em;">로그아웃</a>
+        </div>
+    </div>
+
+    <div class="search-box">
+        <select id="table-select" onchange="loadData()">
+            <option value="events">이벤트 기록 (Events)</option>
+            <option value="schedules">작업 일정 (Schedules)</option>
+        </select>
+        
+        <select id="column-select">
+            </select>
+        
+        <input type="text" id="search-input" placeholder="검색어를 입력하세요... (예: EMERGENCY, forklift)" onkeyup="filterTable()">
+    </div>
+
+    <div class="table-container">
+        <table id="data-table">
+            <thead id="table-head"></thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+</div>
+
+<div id="goNoGoModal">
+    <div class="modal-content">
+        <h2 style="color:#e67e22;">⚠️ 작업 승인 요청</h2>
+        <img id="modal-img" class="modal-img">
+        <p id="modal-info"></p>
+        
+        <div style="max-height: 150px; overflow-y: auto; margin-bottom: 15px; border: 1px solid #eee;">
+            <table style="font-size: 0.9em; margin: 0;">
+                <thead><tr><th>예정시간</th><th>목적지</th></tr></thead>
+                <tbody id="modal-schedule-list"></tbody>
+            </table>
+        </div>
+
+        <button class="btn btn-confirm" id="confirm-btn" onclick="confirmEntry()">선택한 스케줄로 출발</button>
+        
+        <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+        <p style="font-size: 0.85em; color: #666;">미등록 차량/구역 변경 시 직접 선택:</p>
+        
+        <select id="manual-area" class="select-style">
+            <option value="">-- 구역 직접 선택 --</option>
+            <option value="A">A구역</option>
+            <option value="B">B구역</option>
+        </select>
+        
+        <button class="btn btn-manual" onclick="manualEntry()">수동 지정 구역으로 출발</button>
+        <button class="btn" style="background-color:#ccc; width:100%; margin-top:10px; color:black;" onclick="closeModal()">창 닫기</button>
+    </div>
+</div>
+
+<script src="/static/js/main.js"></script>
+
+<script>
+    let currentData = [];
+
+    // 데이터 로드 함수 (로그 조회용)
+    function loadData() {
+        const tableName = document.getElementById('table-select').value;
+        
+        fetch(`/api/get_all_records?table=${tableName}`)
+            .then(res => res.json())
+            .then(data => {
+                currentData = data;
+                renderTable(data);
+            })
+            .catch(err => {
+                console.error("데이터 로드 실패:", err);
+                const tbody = document.getElementById('table-body');
+                if(tbody) tbody.innerHTML = '<tr><td colspan="100%" style="text-align:center;">데이터를 불러오지 못했습니다. 서버 상태를 확인해주세요.</td></tr>';
+            });
+    }
+
+    // 테이블 헤더 및 드롭다운 생성
+    function renderTable(data) {
+        const thead = document.getElementById('table-head');
+        const tbody = document.getElementById('table-body');
+        const colSelect = document.getElementById('column-select');
+        
+        if(!thead || !tbody || !colSelect) return;
+
+        thead.innerHTML = '';
+        tbody.innerHTML = '';
+        colSelect.innerHTML = '<option value="all">전체 컬럼</option>';
+
+        if (!data || data.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="100%" style="text-align:center;">데이터가 없습니다.</td></tr>';
+            return;
+        }
+
+        const columns = Object.keys(data[0]);
+        let trHead = '<tr>';
+        columns.forEach(col => {
+            let colName = col;
+            if(col === 'id') colName = 'ID';
+            if(col === 'event_type') colName = '이벤트 유형';
+            if(col === 'content') colName = '상세 내용';
+            if(col === 'start_time') colName = '발생 시간';
+            if(col === 'image_path') colName = '이미지 경로';
+            if(col === 'date') colName = '날짜';
+            if(col === 'class_name') colName = '차량 클래스';
+            if(col === 'target_area') colName = '작업 구역';
+            if(col === 'actual_in') colName = '투입 시간';
+
+            trHead += `<th>${colName}</th>`;
+            colSelect.innerHTML += `<option value="${col}">${colName}</option>`;
+        });
+        trHead += '</tr>';
+        thead.innerHTML = trHead;
+
+        drawRows(data, columns);
+    }
+
+    // 데이터 행 렌더링
+    function drawRows(data, columns) {
+        const tbody = document.getElementById('table-body');
+        if(!tbody) return;
+        tbody.innerHTML = '';
+        
+        data.forEach(row => {
+            let tr = '<tr>';
+            columns.forEach(col => {
+                if (col === 'image_path') {
+                    if (row[col]) {
+                        tr += `<td><a href="${row[col]}" target="_blank" class="img-link">${row[col]}</a></td>`;
+                    } else {
+                        tr += `<td style="color:#999;">이미지 없음</td>`;
+                    }
+                } 
+                else if (col === 'start_time' || col === 'date' || col === 'actual_in') {
+                    tr += `<td style="color:#666; font-family:monospace;">${row[col] !== null ? row[col] : '-'}</td>`;
+                } 
+                else {
+                    tr += `<td><strong>${row[col] !== null ? row[col] : '-'}</strong></td>`;
+                }
+            });
+            tr += '</tr>';
+            tbody.innerHTML += tr;
+        });
+    }
+
+    // 테이블 필터링
+    function filterTable() {
+        const searchInput = document.getElementById('search-input').value.toLowerCase();
+        const searchCol = document.getElementById('column-select').value;
+        
+        if (!currentData.length) return;
+        const columns = Object.keys(currentData[0]);
+
+        const filteredData = currentData.filter(row => {
+            if (searchCol === 'all') {
+                return columns.some(col => 
+                    String(row[col]).toLowerCase().includes(searchInput)
+                );
+            } else {
+                return String(row[searchCol]).toLowerCase().includes(searchInput);
+            }
+        });
+
+        drawRows(filteredData, columns);
+    }
+
+    window.onload = loadData;
+</script>
+</body>
+</html>

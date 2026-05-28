@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/yolo_web/yolo_web.egg-info
+writing ../../build/yolo_web/yolo_web.egg-info/PKG-INFO
+writing dependency_links to ../../build/yolo_web/yolo_web.egg-info/dependency_links.txt
+writing entry points to ../../build/yolo_web/yolo_web.egg-info/entry_points.txt
+writing requirements to ../../build/yolo_web/yolo_web.egg-info/requires.txt
+writing top-level names to ../../build/yolo_web/yolo_web.egg-info/top_level.txt
+writing manifest file '../../build/yolo_web/yolo_web.egg-info/SOURCES.txt'
+reading manifest file '../../build/yolo_web/yolo_web.egg-info/SOURCES.txt'
+writing manifest file '../../build/yolo_web/yolo_web.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rokey/rokey_ws/build/yolo_web/build
+creating /home/rokey/rokey_ws/build/yolo_web/build/lib
+creating /home/rokey/rokey_ws/build/yolo_web/build/lib/yolo_web
+copying yolo_web/__init__.py -> /home/rokey/rokey_ws/build/yolo_web/build/lib/yolo_web
+copying yolo_web/yolo_wc_trigger.py -> /home/rokey/rokey_ws/build/yolo_web/build/lib/yolo_web
+running install
+running install_lib
+creating /home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages/yolo_web
+copying /home/rokey/rokey_ws/build/yolo_web/build/lib/yolo_web/__init__.py -> /home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages/yolo_web
+copying /home/rokey/rokey_ws/build/yolo_web/build/lib/yolo_web/yolo_wc_trigger.py -> /home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages/yolo_web
+byte-compiling /home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages/yolo_web/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages/yolo_web/yolo_wc_trigger.py to yolo_wc_trigger.cpython-310.pyc
+running install_data
+creating /home/rokey/rokey_ws/install/yolo_web/share/ament_index
+creating /home/rokey/rokey_ws/install/yolo_web/share/ament_index/resource_index
+creating /home/rokey/rokey_ws/install/yolo_web/share/ament_index/resource_index/packages
+copying resource/yolo_web -> /home/rokey/rokey_ws/install/yolo_web/share/ament_index/resource_index/packages
+copying package.xml -> /home/rokey/rokey_ws/install/yolo_web/share/yolo_web
+running install_egg_info
+Copying ../../build/yolo_web/yolo_web.egg-info to /home/rokey/rokey_ws/install/yolo_web/lib/python3.10/site-packages/yolo_web-0.0.0-py3.10.egg-info
+running install_scripts
+Installing webcam_trigger_node script to /home/rokey/rokey_ws/install/yolo_web/lib/yolo_web
+writing list of installed files to '/home/rokey/rokey_ws/build/yolo_web/install.log'

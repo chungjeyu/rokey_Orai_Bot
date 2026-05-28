@@ -1,0 +1,3 @@
+[console_scripts]
+capture_node = image_capture_pkg.image_capture_node:main
+

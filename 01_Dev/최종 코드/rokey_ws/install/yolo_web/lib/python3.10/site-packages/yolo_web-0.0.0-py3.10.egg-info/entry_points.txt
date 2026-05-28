@@ -1,0 +1,5 @@
+[console_scripts]
+fork_detect_a = yolo_web.fork_turck_detecting_multi_noresize_a:main
+fork_detect_b = yolo_web.fork_turck_detecting_multi_noresize_b:main
+truck_fork_classifer = yolo_web.truck_fork_classifer:main
+

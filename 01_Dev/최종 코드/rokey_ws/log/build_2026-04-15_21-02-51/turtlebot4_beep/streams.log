@@ -1,0 +1,22 @@
+[1.061s] Invoking command in '/home/rokey/rokey_ws/src/turtlebot4_beep': PYTHONPATH=/home/rokey/rokey_ws/build/turtlebot4_beep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot4_beep build --build-base /home/rokey/rokey_ws/build/turtlebot4_beep/build install --record /home/rokey/rokey_ws/build/turtlebot4_beep/install.log --single-version-externally-managed install_data
+[1.218s] running egg_info
+[1.219s] writing ../../build/turtlebot4_beep/turtlebot4_beep.egg-info/PKG-INFO
+[1.219s] writing dependency_links to ../../build/turtlebot4_beep/turtlebot4_beep.egg-info/dependency_links.txt
+[1.219s] writing entry points to ../../build/turtlebot4_beep/turtlebot4_beep.egg-info/entry_points.txt
+[1.219s] writing requirements to ../../build/turtlebot4_beep/turtlebot4_beep.egg-info/requires.txt
+[1.219s] writing top-level names to ../../build/turtlebot4_beep/turtlebot4_beep.egg-info/top_level.txt
+[1.219s] reading manifest file '../../build/turtlebot4_beep/turtlebot4_beep.egg-info/SOURCES.txt'
+[1.220s] adding license file 'LICENSE'
+[1.220s] writing manifest file '../../build/turtlebot4_beep/turtlebot4_beep.egg-info/SOURCES.txt'
+[1.220s] running build
+[1.220s] running build_py
+[1.220s] running install
+[1.220s] running install_lib
+[1.221s] running install_data
+[1.221s] running install_egg_info
+[1.222s] removing '/home/rokey/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages/turtlebot4_beep-0.0.0-py3.10.egg-info' (and everything under it)
+[1.222s] Copying ../../build/turtlebot4_beep/turtlebot4_beep.egg-info to /home/rokey/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages/turtlebot4_beep-0.0.0-py3.10.egg-info
+[1.222s] running install_scripts
+[1.236s] Installing beep_node script to /home/rokey/rokey_ws/install/turtlebot4_beep/lib/turtlebot4_beep
+[1.236s] writing list of installed files to '/home/rokey/rokey_ws/build/turtlebot4_beep/install.log'
+[1.261s] Invoked command in '/home/rokey/rokey_ws/src/turtlebot4_beep' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/turtlebot4_beep/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/turtlebot4_beep/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot4_beep build --build-base /home/rokey/rokey_ws/build/turtlebot4_beep/build install --record /home/rokey/rokey_ws/build/turtlebot4_beep/install.log --single-version-externally-managed install_data

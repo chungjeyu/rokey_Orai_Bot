@@ -1,0 +1,31 @@
+[1.142s] Invoking command in '/home/rokey/rokey_ws/src/turtlebot4_cam': PYTHONPATH=/home/rokey/rokey_ws/build/turtlebot4_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/turtlebot4_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot4_cam build --build-base /home/rokey/rokey_ws/build/turtlebot4_cam/build install --record /home/rokey/rokey_ws/build/turtlebot4_cam/install.log --single-version-externally-managed install_data
+[1.305s] running egg_info
+[1.305s] writing ../../build/turtlebot4_cam/turtlebot4_cam.egg-info/PKG-INFO
+[1.305s] writing dependency_links to ../../build/turtlebot4_cam/turtlebot4_cam.egg-info/dependency_links.txt
+[1.305s] writing entry points to ../../build/turtlebot4_cam/turtlebot4_cam.egg-info/entry_points.txt
+[1.305s] writing requirements to ../../build/turtlebot4_cam/turtlebot4_cam.egg-info/requires.txt
+[1.305s] writing top-level names to ../../build/turtlebot4_cam/turtlebot4_cam.egg-info/top_level.txt
+[1.306s] reading manifest file '../../build/turtlebot4_cam/turtlebot4_cam.egg-info/SOURCES.txt'
+[1.306s] adding license file 'LICENSE'
+[1.307s] writing manifest file '../../build/turtlebot4_cam/turtlebot4_cam.egg-info/SOURCES.txt'
+[1.307s] running build
+[1.307s] running build_py
+[1.307s] copying turtlebot4_cam/depth_cam.py -> /home/rokey/rokey_ws/build/turtlebot4_cam/build/lib/turtlebot4_cam
+[1.307s] copying turtlebot4_cam/depth_checker.py -> /home/rokey/rokey_ws/build/turtlebot4_cam/build/lib/turtlebot4_cam
+[1.307s] copying turtlebot4_cam/depth_checker_mouse_click.py -> /home/rokey/rokey_ws/build/turtlebot4_cam/build/lib/turtlebot4_cam
+[1.307s] running install
+[1.307s] running install_lib
+[1.307s] copying /home/rokey/rokey_ws/build/turtlebot4_cam/build/lib/turtlebot4_cam/depth_cam.py -> /home/rokey/rokey_ws/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam
+[1.308s] copying /home/rokey/rokey_ws/build/turtlebot4_cam/build/lib/turtlebot4_cam/depth_checker.py -> /home/rokey/rokey_ws/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam
+[1.308s] copying /home/rokey/rokey_ws/build/turtlebot4_cam/build/lib/turtlebot4_cam/depth_checker_mouse_click.py -> /home/rokey/rokey_ws/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam
+[1.308s] byte-compiling /home/rokey/rokey_ws/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam/depth_cam.py to depth_cam.cpython-310.pyc
+[1.308s] byte-compiling /home/rokey/rokey_ws/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam/depth_checker.py to depth_checker.cpython-310.pyc
+[1.309s] byte-compiling /home/rokey/rokey_ws/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam/depth_checker_mouse_click.py to depth_checker_mouse_click.cpython-310.pyc
+[1.310s] running install_data
+[1.310s] running install_egg_info
+[1.311s] removing '/home/rokey/rokey_ws/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam-0.0.0-py3.10.egg-info' (and everything under it)
+[1.311s] Copying ../../build/turtlebot4_cam/turtlebot4_cam.egg-info to /home/rokey/rokey_ws/install/turtlebot4_cam/lib/python3.10/site-packages/turtlebot4_cam-0.0.0-py3.10.egg-info
+[1.312s] running install_scripts
+[1.325s] Installing depth_cam = turtlebot4_cam.depth_checker:maindepth_cam_click script to /home/rokey/rokey_ws/install/turtlebot4_cam/lib/turtlebot4_cam
+[1.325s] writing list of installed files to '/home/rokey/rokey_ws/build/turtlebot4_cam/install.log'
+[1.347s] Invoked command in '/home/rokey/rokey_ws/src/turtlebot4_cam' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/turtlebot4_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/turtlebot4_cam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot4_cam build --build-base /home/rokey/rokey_ws/build/turtlebot4_cam/build install --record /home/rokey/rokey_ws/build/turtlebot4_cam/install.log --single-version-externally-managed install_data

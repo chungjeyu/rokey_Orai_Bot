@@ -1,0 +1,4 @@
+[console_scripts]
+follow_waypoints = mini_prj.3_1_c_follow_waypoints:main
+node_a = mini_prj.node_a:main
+

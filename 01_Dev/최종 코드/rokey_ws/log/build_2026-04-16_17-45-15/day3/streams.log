@@ -1,0 +1,83 @@
+[1.207s] Invoking command in '/home/rokey/rokey_ws/src/day3': PYTHONPATH=/home/rokey/rokey_ws/build/day3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/day3 build --build-base /home/rokey/rokey_ws/build/day3/build install --record /home/rokey/rokey_ws/build/day3/install.log --single-version-externally-managed install_data
+[1.370s] running egg_info
+[1.370s] creating ../../build/day3/day3.egg-info
+[1.370s] writing ../../build/day3/day3.egg-info/PKG-INFO
+[1.370s] writing dependency_links to ../../build/day3/day3.egg-info/dependency_links.txt
+[1.370s] writing entry points to ../../build/day3/day3.egg-info/entry_points.txt
+[1.370s] writing requirements to ../../build/day3/day3.egg-info/requires.txt
+[1.370s] writing top-level names to ../../build/day3/day3.egg-info/top_level.txt
+[1.371s] writing manifest file '../../build/day3/day3.egg-info/SOURCES.txt'
+[1.371s] reading manifest file '../../build/day3/day3.egg-info/SOURCES.txt'
+[1.372s] writing manifest file '../../build/day3/day3.egg-info/SOURCES.txt'
+[1.372s] running build
+[1.372s] running build_py
+[1.372s] creating /home/rokey/rokey_ws/build/day3/build
+[1.372s] creating /home/rokey/rokey_ws/build/day3/build/lib
+[1.372s] creating /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.373s] copying day3/3_1_c_follow_waypoints.py -> /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.373s] copying day3/3_2_d_sim_nav_to_person.py -> /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.373s] copying day3/3_3_a_depth_checker.py -> /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.373s] copying day3/3_1_d_create_path.py -> /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.373s] copying day3/3_2_c_sim_depth_to_nav_goal.py -> /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.373s] copying day3/3_3_b_depth_to_3d.py -> /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.373s] copying day3/3_3_c_depth_to_nav_goal.py -> /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.373s] copying day3/3_1_f_patrol_loop.py -> /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.373s] copying day3/__init__.py -> /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.373s] copying day3/3_3_b_depth_to_3d_ts.py -> /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.373s] copying day3/3_2_a_sim_depth_checker.py -> /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.373s] copying day3/3_1_e_mail_delivery.py -> /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.373s] copying day3/3_2_b_sim_depth_to_3d.py -> /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.374s] copying day3/3_1_a_nav_to_pose.py -> /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.374s] copying day3/3_1_b_nav_through_poses.py -> /home/rokey/rokey_ws/build/day3/build/lib/day3
+[1.374s] running install
+[1.374s] running install_lib
+[1.374s] creating /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.374s] copying /home/rokey/rokey_ws/build/day3/build/lib/day3/3_1_c_follow_waypoints.py -> /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.374s] copying /home/rokey/rokey_ws/build/day3/build/lib/day3/3_2_d_sim_nav_to_person.py -> /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.374s] copying /home/rokey/rokey_ws/build/day3/build/lib/day3/3_3_a_depth_checker.py -> /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.374s] copying /home/rokey/rokey_ws/build/day3/build/lib/day3/3_1_d_create_path.py -> /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.374s] copying /home/rokey/rokey_ws/build/day3/build/lib/day3/3_2_c_sim_depth_to_nav_goal.py -> /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.374s] copying /home/rokey/rokey_ws/build/day3/build/lib/day3/3_3_b_depth_to_3d.py -> /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.374s] copying /home/rokey/rokey_ws/build/day3/build/lib/day3/3_3_c_depth_to_nav_goal.py -> /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.374s] copying /home/rokey/rokey_ws/build/day3/build/lib/day3/3_1_f_patrol_loop.py -> /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.375s] copying /home/rokey/rokey_ws/build/day3/build/lib/day3/__init__.py -> /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.375s] copying /home/rokey/rokey_ws/build/day3/build/lib/day3/3_3_b_depth_to_3d_ts.py -> /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.375s] copying /home/rokey/rokey_ws/build/day3/build/lib/day3/3_2_a_sim_depth_checker.py -> /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.375s] copying /home/rokey/rokey_ws/build/day3/build/lib/day3/3_1_e_mail_delivery.py -> /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.375s] copying /home/rokey/rokey_ws/build/day3/build/lib/day3/3_2_b_sim_depth_to_3d.py -> /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.375s] copying /home/rokey/rokey_ws/build/day3/build/lib/day3/3_1_a_nav_to_pose.py -> /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.375s] copying /home/rokey/rokey_ws/build/day3/build/lib/day3/3_1_b_nav_through_poses.py -> /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3
+[1.375s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_1_c_follow_waypoints.py to 3_1_c_follow_waypoints.cpython-310.pyc
+[1.375s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_2_d_sim_nav_to_person.py to 3_2_d_sim_nav_to_person.cpython-310.pyc
+[1.375s]   File "/home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_1_c_follow_waypoints.py", line 50
+[1.376s]     goal_pose.append(navigator.getPoseStamped([-1.5589 1.7090], TurtleBot4Directions.EAST))
+[1.376s]                                                ^^^^^^^^^^^^^^
+[1.376s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[1.376s] 
+[1.376s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_3_a_depth_checker.py to 3_3_a_depth_checker.cpython-310.pyc
+[1.376s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_1_d_create_path.py to 3_1_d_create_path.cpython-310.pyc
+[1.377s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_2_c_sim_depth_to_nav_goal.py to 3_2_c_sim_depth_to_nav_goal.cpython-310.pyc
+[1.377s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_3_b_depth_to_3d.py to 3_3_b_depth_to_3d.cpython-310.pyc
+[1.378s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_3_c_depth_to_nav_goal.py to 3_3_c_depth_to_nav_goal.cpython-310.pyc
+[1.379s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_1_f_patrol_loop.py to 3_1_f_patrol_loop.cpython-310.pyc
+[1.380s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/__init__.py to __init__.cpython-310.pyc
+[1.380s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_3_b_depth_to_3d_ts.py to 3_3_b_depth_to_3d_ts.cpython-310.pyc
+[1.381s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_2_a_sim_depth_checker.py to 3_2_a_sim_depth_checker.cpython-310.pyc
+[1.381s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_1_e_mail_delivery.py to 3_1_e_mail_delivery.cpython-310.pyc
+[1.381s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_2_b_sim_depth_to_3d.py to 3_2_b_sim_depth_to_3d.cpython-310.pyc
+[1.382s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_1_a_nav_to_pose.py to 3_1_a_nav_to_pose.cpython-310.pyc
+[1.382s] byte-compiling /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3/3_1_b_nav_through_poses.py to 3_1_b_nav_through_poses.cpython-310.pyc
+[1.382s] running install_data
+[1.382s] creating /home/rokey/rokey_ws/install/day3/share/ament_index
+[1.382s] creating /home/rokey/rokey_ws/install/day3/share/ament_index/resource_index
+[1.382s] creating /home/rokey/rokey_ws/install/day3/share/ament_index/resource_index/packages
+[1.382s] copying resource/day3 -> /home/rokey/rokey_ws/install/day3/share/ament_index/resource_index/packages
+[1.382s] copying package.xml -> /home/rokey/rokey_ws/install/day3/share/day3
+[1.382s] running install_egg_info
+[1.383s] Copying ../../build/day3/day3.egg-info to /home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages/day3-0.0.0-py3.10.egg-info
+[1.384s] running install_scripts
+[1.396s] Installing follow_waypoints script to /home/rokey/rokey_ws/install/day3/lib/day3
+[1.397s] Installing nav_through_poses script to /home/rokey/rokey_ws/install/day3/lib/day3
+[1.397s] Installing nav_to_poses script to /home/rokey/rokey_ws/install/day3/lib/day3
+[1.397s] writing list of installed files to '/home/rokey/rokey_ws/build/day3/install.log'
+[1.418s] Invoked command in '/home/rokey/rokey_ws/src/day3' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/day3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/day3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/day3 build --build-base /home/rokey/rokey_ws/build/day3/build install --record /home/rokey/rokey_ws/build/day3/install.log --single-version-externally-managed install_data

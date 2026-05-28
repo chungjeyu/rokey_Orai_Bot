@@ -1,0 +1,3 @@
+[console_scripts]
+dummy_gui = test_gui.test_leader:main
+

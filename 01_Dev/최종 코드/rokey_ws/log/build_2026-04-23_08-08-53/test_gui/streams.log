@@ -1,0 +1,21 @@
+[0.424s] Invoking command in '/home/rokey/rokey_ws/src/test_gui': PYTHONPATH=/home/rokey/rokey_ws/build/test_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_gui build --build-base /home/rokey/rokey_ws/build/test_gui/build install --record /home/rokey/rokey_ws/build/test_gui/install.log --single-version-externally-managed install_data
+[0.591s] running egg_info
+[0.591s] writing ../../build/test_gui/test_gui.egg-info/PKG-INFO
+[0.591s] writing dependency_links to ../../build/test_gui/test_gui.egg-info/dependency_links.txt
+[0.591s] writing entry points to ../../build/test_gui/test_gui.egg-info/entry_points.txt
+[0.591s] writing requirements to ../../build/test_gui/test_gui.egg-info/requires.txt
+[0.591s] writing top-level names to ../../build/test_gui/test_gui.egg-info/top_level.txt
+[0.592s] reading manifest file '../../build/test_gui/test_gui.egg-info/SOURCES.txt'
+[0.593s] writing manifest file '../../build/test_gui/test_gui.egg-info/SOURCES.txt'
+[0.593s] running build
+[0.593s] running build_py
+[0.593s] running install
+[0.593s] running install_lib
+[0.594s] running install_data
+[0.594s] running install_egg_info
+[0.595s] removing '/home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages/test_gui-0.0.0-py3.10.egg-info' (and everything under it)
+[0.595s] Copying ../../build/test_gui/test_gui.egg-info to /home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages/test_gui-0.0.0-py3.10.egg-info
+[0.595s] running install_scripts
+[0.609s] Installing dummy_gui script to /home/rokey/rokey_ws/install/test_gui/lib/test_gui
+[0.609s] writing list of installed files to '/home/rokey/rokey_ws/build/test_gui/install.log'
+[0.623s] Invoked command in '/home/rokey/rokey_ws/src/test_gui' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/test_gui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/test_gui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_gui build --build-base /home/rokey/rokey_ws/build/test_gui/build install --record /home/rokey/rokey_ws/build/test_gui/install.log --single-version-externally-managed install_data

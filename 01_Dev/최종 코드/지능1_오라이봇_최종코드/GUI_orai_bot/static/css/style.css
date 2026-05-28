@@ -1,0 +1,50 @@
+/* 카드(섹션)의 제목 부분을 굵게 표시하여 구분을 명확히 함 */
+.card-header { 
+    font-weight: bold; 
+}
+
+/* 이벤트 로그 영역의 스타일 설정 */
+#event-log { 
+    /* 시스템 로그 느낌을 주기 위해 고정폭 글꼴(Monospace) 사용 */
+    font-family: 'Courier New', Courier, monospace; 
+    /* 로그 가독성을 위해 아주 연한 회색 배경색 지정 */
+    background: #f8f9fa; 
+}
+
+/* 작업 완료된 행(row)의 배경색 설정 */
+.table-success { 
+    /* 부트스트랩 기본 색상보다 우선순위를 높여서(!important) 확실한 녹색 배경 적용 */
+    background-color: #d1e7dd !important; 
+}
+
+/* 로그 리스트의 개별 항목 스타일 */
+.list-group-item { 
+    /* 왼쪽 테두리에 두꺼운 회색 선을 그어 리스트 항목임을 강조 */
+    border-left: 4px solid #6c757d; 
+    /* 로그 간의 간격을 살짝 띄워 가독성 확보 */
+    margin-bottom: 2px; 
+}
+
+/* 비상정지 버튼 스타일 */
+.btn-emergency {
+    background-color: #e74c3c; /* 빨간색 */
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 3px solid #c0392b;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-right: 15px;
+}
+
+.btn-emergency:hover {
+    background-color: #c0392b;
+    transform: scale(1.05); /* 살짝 커지는 효과 */
+}
+
+.btn-emergency:active {
+    background-color: #962d22;
+    transform: scale(0.95);
+}

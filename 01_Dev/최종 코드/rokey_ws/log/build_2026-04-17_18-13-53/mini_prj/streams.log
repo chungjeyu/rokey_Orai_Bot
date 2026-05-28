@@ -1,0 +1,25 @@
+[0.431s] Invoking command in '/home/rokey/rokey_ws/src/mini_prj': PYTHONPATH=/home/rokey/rokey_ws/build/mini_prj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/mini_prj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mini_prj build --build-base /home/rokey/rokey_ws/build/mini_prj/build install --record /home/rokey/rokey_ws/build/mini_prj/install.log --single-version-externally-managed install_data
+[0.604s] running egg_info
+[0.604s] writing ../../build/mini_prj/mini_prj.egg-info/PKG-INFO
+[0.604s] writing dependency_links to ../../build/mini_prj/mini_prj.egg-info/dependency_links.txt
+[0.604s] writing entry points to ../../build/mini_prj/mini_prj.egg-info/entry_points.txt
+[0.604s] writing requirements to ../../build/mini_prj/mini_prj.egg-info/requires.txt
+[0.605s] writing top-level names to ../../build/mini_prj/mini_prj.egg-info/top_level.txt
+[0.606s] reading manifest file '../../build/mini_prj/mini_prj.egg-info/SOURCES.txt'
+[0.606s] writing manifest file '../../build/mini_prj/mini_prj.egg-info/SOURCES.txt'
+[0.606s] running build
+[0.606s] running build_py
+[0.606s] copying mini_prj/node_a_nav.py -> /home/rokey/rokey_ws/build/mini_prj/build/lib/mini_prj
+[0.606s] running install
+[0.606s] running install_lib
+[0.607s] copying /home/rokey/rokey_ws/build/mini_prj/build/lib/mini_prj/node_a_nav.py -> /home/rokey/rokey_ws/install/mini_prj/lib/python3.10/site-packages/mini_prj
+[0.607s] byte-compiling /home/rokey/rokey_ws/install/mini_prj/lib/python3.10/site-packages/mini_prj/node_a_nav.py to node_a_nav.cpython-310.pyc
+[0.608s] running install_data
+[0.608s] running install_egg_info
+[0.609s] removing '/home/rokey/rokey_ws/install/mini_prj/lib/python3.10/site-packages/mini_prj-0.0.0-py3.10.egg-info' (and everything under it)
+[0.609s] Copying ../../build/mini_prj/mini_prj.egg-info to /home/rokey/rokey_ws/install/mini_prj/lib/python3.10/site-packages/mini_prj-0.0.0-py3.10.egg-info
+[0.609s] running install_scripts
+[0.622s] Installing follow_waypoints script to /home/rokey/rokey_ws/install/mini_prj/lib/mini_prj
+[0.622s] Installing node_a script to /home/rokey/rokey_ws/install/mini_prj/lib/mini_prj
+[0.622s] writing list of installed files to '/home/rokey/rokey_ws/build/mini_prj/install.log'
+[0.636s] Invoked command in '/home/rokey/rokey_ws/src/mini_prj' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/mini_prj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/mini_prj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mini_prj build --build-base /home/rokey/rokey_ws/build/mini_prj/build install --record /home/rokey/rokey_ws/build/mini_prj/install.log --single-version-externally-managed install_data

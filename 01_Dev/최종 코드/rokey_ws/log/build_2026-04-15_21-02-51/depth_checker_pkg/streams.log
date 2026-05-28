@@ -1,0 +1,21 @@
+[1.062s] Invoking command in '/home/rokey/rokey_ws/src/depth_checker_pkg': PYTHONPATH=/home/rokey/rokey_ws/build/depth_checker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/depth_checker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/depth_checker_pkg build --build-base /home/rokey/rokey_ws/build/depth_checker_pkg/build install --record /home/rokey/rokey_ws/build/depth_checker_pkg/install.log --single-version-externally-managed install_data
+[1.221s] running egg_info
+[1.221s] writing ../../build/depth_checker_pkg/depth_checker_pkg.egg-info/PKG-INFO
+[1.221s] writing dependency_links to ../../build/depth_checker_pkg/depth_checker_pkg.egg-info/dependency_links.txt
+[1.222s] writing entry points to ../../build/depth_checker_pkg/depth_checker_pkg.egg-info/entry_points.txt
+[1.222s] writing requirements to ../../build/depth_checker_pkg/depth_checker_pkg.egg-info/requires.txt
+[1.222s] writing top-level names to ../../build/depth_checker_pkg/depth_checker_pkg.egg-info/top_level.txt
+[1.223s] reading manifest file '../../build/depth_checker_pkg/depth_checker_pkg.egg-info/SOURCES.txt'
+[1.223s] writing manifest file '../../build/depth_checker_pkg/depth_checker_pkg.egg-info/SOURCES.txt'
+[1.223s] running build
+[1.223s] running build_py
+[1.223s] running install
+[1.224s] running install_lib
+[1.224s] running install_data
+[1.224s] running install_egg_info
+[1.225s] removing '/home/rokey/rokey_ws/install/depth_checker_pkg/lib/python3.10/site-packages/depth_checker_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.226s] Copying ../../build/depth_checker_pkg/depth_checker_pkg.egg-info to /home/rokey/rokey_ws/install/depth_checker_pkg/lib/python3.10/site-packages/depth_checker_pkg-0.0.0-py3.10.egg-info
+[1.226s] running install_scripts
+[1.239s] Installing depth_checker script to /home/rokey/rokey_ws/install/depth_checker_pkg/lib/depth_checker_pkg
+[1.239s] writing list of installed files to '/home/rokey/rokey_ws/build/depth_checker_pkg/install.log'
+[1.259s] Invoked command in '/home/rokey/rokey_ws/src/depth_checker_pkg' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/depth_checker_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/depth_checker_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/depth_checker_pkg build --build-base /home/rokey/rokey_ws/build/depth_checker_pkg/build install --record /home/rokey/rokey_ws/build/depth_checker_pkg/install.log --single-version-externally-managed install_data

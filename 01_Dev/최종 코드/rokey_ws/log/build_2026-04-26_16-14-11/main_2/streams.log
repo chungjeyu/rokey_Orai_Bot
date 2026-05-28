@@ -1,0 +1,44 @@
+[0.458s] Invoking command in '/home/rokey/rokey_ws/src/main_2': PYTHONPATH=/home/rokey/rokey_ws/build/main_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_2 build --build-base /home/rokey/rokey_ws/build/main_2/build install --record /home/rokey/rokey_ws/build/main_2/install.log --single-version-externally-managed install_data
+[0.618s] running egg_info
+[0.618s] writing ../../build/main_2/main_2.egg-info/PKG-INFO
+[0.618s] writing dependency_links to ../../build/main_2/main_2.egg-info/dependency_links.txt
+[0.619s] writing entry points to ../../build/main_2/main_2.egg-info/entry_points.txt
+[0.619s] writing requirements to ../../build/main_2/main_2.egg-info/requires.txt
+[0.619s] writing top-level names to ../../build/main_2/main_2.egg-info/top_level.txt
+[0.620s] reading manifest file '../../build/main_2/main_2.egg-info/SOURCES.txt'
+[0.621s] writing manifest file '../../build/main_2/main_2.egg-info/SOURCES.txt'
+[0.622s] running build
+[0.622s] running build_py
+[0.622s] copying main_2/17_leader.py -> /home/rokey/rokey_ws/build/main_2/build/lib/main_2
+[0.622s] copying main_2/event_yolo_detect_17.py -> /home/rokey/rokey_ws/build/main_2/build/lib/main_2
+[0.622s] copying main_2/12_follower.py -> /home/rokey/rokey_ws/build/main_2/build/lib/main_2
+[0.622s] copying main_2/25_leader.py -> /home/rokey/rokey_ws/build/main_2/build/lib/main_2
+[0.623s] running install
+[0.623s] running install_lib
+[0.624s] copying /home/rokey/rokey_ws/build/main_2/build/lib/main_2/17_leader.py -> /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2
+[0.624s] copying /home/rokey/rokey_ws/build/main_2/build/lib/main_2/event_yolo_detect_17.py -> /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2
+[0.624s] copying /home/rokey/rokey_ws/build/main_2/build/lib/main_2/12_follower.py -> /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2
+[0.624s] copying /home/rokey/rokey_ws/build/main_2/build/lib/main_2/25_leader.py -> /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2
+[0.625s] byte-compiling /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2/17_leader.py to 17_leader.cpython-310.pyc
+[0.627s] byte-compiling /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2/event_yolo_detect_17.py to event_yolo_detect_17.cpython-310.pyc
+[0.628s] byte-compiling /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2/12_follower.py to 12_follower.cpython-310.pyc
+[0.630s] byte-compiling /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2/25_leader.py to 25_leader.cpython-310.pyc
+[0.633s] running install_data
+[0.633s] running install_egg_info
+[0.635s] removing '/home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.635s] Copying ../../build/main_2/main_2.egg-info to /home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages/main_2-0.0.0-py3.10.egg-info
+[0.636s] running install_scripts
+[0.651s] Installing follower_node script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.651s] Installing follower_node3 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.652s] Installing leader_node script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.652s] Installing leader_node11 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.652s] Installing leader_node13 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.652s] Installing leader_node14 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.652s] Installing leader_node16 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.652s] Installing leader_node17 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.652s] Installing leader_node5 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.652s] Installing leader_node6 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.652s] Installing leader_node7 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.652s] Installing leader_node8 script to /home/rokey/rokey_ws/install/main_2/lib/main_2
+[0.653s] writing list of installed files to '/home/rokey/rokey_ws/build/main_2/install.log'
+[0.667s] Invoked command in '/home/rokey/rokey_ws/src/main_2' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/main_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/main_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_2 build --build-base /home/rokey/rokey_ws/build/main_2/build install --record /home/rokey/rokey_ws/build/main_2/install.log --single-version-externally-managed install_data

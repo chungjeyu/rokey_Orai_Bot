@@ -1,0 +1,6 @@
+# Request
+string zone
+---
+# Response
+bool success
+string message

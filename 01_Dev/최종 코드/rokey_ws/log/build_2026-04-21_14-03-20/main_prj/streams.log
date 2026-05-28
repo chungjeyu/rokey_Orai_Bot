@@ -1,0 +1,25 @@
+[0.407s] Invoking command in '/home/rokey/rokey_ws/src/main_prj': PYTHONPATH=/home/rokey/rokey_ws/build/main_prj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/main_prj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_prj build --build-base /home/rokey/rokey_ws/build/main_prj/build install --record /home/rokey/rokey_ws/build/main_prj/install.log --single-version-externally-managed install_data
+[0.563s] running egg_info
+[0.563s] writing ../../build/main_prj/main_prj.egg-info/PKG-INFO
+[0.563s] writing dependency_links to ../../build/main_prj/main_prj.egg-info/dependency_links.txt
+[0.563s] writing entry points to ../../build/main_prj/main_prj.egg-info/entry_points.txt
+[0.563s] writing requirements to ../../build/main_prj/main_prj.egg-info/requires.txt
+[0.563s] writing top-level names to ../../build/main_prj/main_prj.egg-info/top_level.txt
+[0.565s] reading manifest file '../../build/main_prj/main_prj.egg-info/SOURCES.txt'
+[0.565s] writing manifest file '../../build/main_prj/main_prj.egg-info/SOURCES.txt'
+[0.565s] running build
+[0.565s] running build_py
+[0.565s] copying main_prj/abgui_goal_pose1.py -> /home/rokey/rokey_ws/build/main_prj/build/lib/main_prj
+[0.565s] running install
+[0.565s] running install_lib
+[0.566s] copying /home/rokey/rokey_ws/build/main_prj/build/lib/main_prj/abgui_goal_pose1.py -> /home/rokey/rokey_ws/install/main_prj/lib/python3.10/site-packages/main_prj
+[0.566s] byte-compiling /home/rokey/rokey_ws/install/main_prj/lib/python3.10/site-packages/main_prj/abgui_goal_pose1.py to abgui_goal_pose1.cpython-310.pyc
+[0.567s] running install_data
+[0.567s] running install_egg_info
+[0.568s] removing '/home/rokey/rokey_ws/install/main_prj/lib/python3.10/site-packages/main_prj-0.0.0-py3.10.egg-info' (and everything under it)
+[0.568s] Copying ../../build/main_prj/main_prj.egg-info to /home/rokey/rokey_ws/install/main_prj/lib/python3.10/site-packages/main_prj-0.0.0-py3.10.egg-info
+[0.568s] running install_scripts
+[0.581s] Installing abgui_goal_pose1 script to /home/rokey/rokey_ws/install/main_prj/lib/main_prj
+[0.581s] Installing abgui_goal_pose2_service script to /home/rokey/rokey_ws/install/main_prj/lib/main_prj
+[0.581s] writing list of installed files to '/home/rokey/rokey_ws/build/main_prj/install.log'
+[0.596s] Invoked command in '/home/rokey/rokey_ws/src/main_prj' returned '0': PYTHONPATH=/home/rokey/rokey_ws/build/main_prj/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokey/rokey_ws/install/main_prj/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_prj build --build-base /home/rokey/rokey_ws/build/main_prj/build install --record /home/rokey/rokey_ws/build/main_prj/install.log --single-version-externally-managed install_data
