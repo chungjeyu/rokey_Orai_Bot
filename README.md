@@ -1,7 +1,7 @@
 # 🤖 오라이봇 (Orai Bot)
 
-**오라이봇**은 물류 및 산업 환경을 위한 **지능형 AMR(Autonomous Mobile Robot) Leader-Follower 시스템**입니다. 
-ROS 2 기반의 자율 주행 로봇(Turtlebot4)과 YOLO 기반의 비전 인식 기술, 그리고 관제용 Web GUI를 결합하여 효율적인 작업 지시 및 모니터링을 지원합니다.
+**오라이봇**은 공사 현장에서의 안전한 차량 안내를 위한 **지능형 AMR(Autonomous Mobile Robot) Leader-Follower 시스템**입니다. 
+ROS 2 기반의 자율 주행 로봇(Turtlebot4) 2대와 YOLO 기반의 비전 인식 기술, 그리고 관제용 Web GUI를 결합하여 효율적인 작업 지시 및 모니터링을 지원합니다.
 
 ## 🌟 주요 기능 (Key Features)
 
